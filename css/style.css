@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+p {
+    font-family: "微軟正黑體";
+}
+
+
+
+
+/* ======================= */
+
+/* 下拉選單區塊  */
+
+/* ======================= */
+
+.select_menu {
+    margin: 0;
+    padding: 0px;
+
+}
+
+.select_menu ul li {
+
+    display: block;
+    float: left;
+    position: relative;
+}
+
+/* ======================= */
+
+/* 下拉選單的高度 */
+
+/* ======================= */
+
+#know_select ul li ul {
+    right: 0px;
+}
+
+.select_menu ul li ul {
+    margin: -4px 0 0;
+    display: none;
+    position: absolute;
+    width: 150px;
+    z-index: 350;
+    height: auto;
+    overflow: auto;
+    top: 80px;
+
+}
+
+.select_menu ul li ul li {
+    background: rgb(255, 255, 255, .6);
+}
+
+.select_menu ul li ul li a {
+    display: block;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 29px;
+    color: #555;
+    margin: 0;
+    padding-left: 20px;
+
+
+
+}
+
+
+/* ======================= */
+
+/* 當選到時 */
+
+/* ======================= */
+
+#know_select .option_selected {
+    width: 76px;
+    padding-left: 0;
+    margin: 0;
+}
+
+
+.option_selected {
+    color: rgb(200, 200, 200);
+    display: block;
+    font-size: 12pt;
+    line-height: 29px;
+    position: relative;
+    top: 39px;
+    width: 38px;
+
+}
+
+.option_list li {
+    float: none;
+    width: 100%;
+}
+
+/* ======================= */
+
+/* 滑入選項變色*/
+
+/* ======================= */
+
+.hovered_item {
+    border-left: 3px solid red;
+    background: rgba(223, 214, 207, .8);
+    font-weight: bold;
+    color: #333;
+}
+
+#banner {
+    background: url(../img/place_top.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 100px;
+    padding: 12em 0 29em;
+    position: relative;
+    left: 0;
+    top: 0px;
+    overflow: hidden;
+    color: aliceblue;
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+
+#banner #h2 {
+    position: relative;
+    top: 80px;
+    left: 460px;
+}
+
+#banner p {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 70px;
+    font-size: 36pt;
+    letter-spacing: 7px;
+    opacity: .6;
+}
+
+#logo {
+    position: relative;
+    top: 10px;
+    float: left;
+}
+
+
+header {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    right: 40px;
+}
+
+header ul {
+    position: relative;
+    top: -30px;
+    width: auto;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    color: rgb(200, 200, 200);
+    font-size: 12pt;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    letter-spacing: 3px;
+
+}
+
+#know {
+    margin: 0;
+}
+
+
+#home:hover {
+    color: rgb(200, 176, 161);
+
+}
+
+#food:hover {
+    color: rgb(200, 176, 161);
+}
+
+#place:hover {
+    color: rgb(200, 176, 161);
+}
+
+#shop:hover {
+    color: rgb(200, 176, 161);
+}
+
+#know:hover {
+    color: rgb(200, 176, 161);
+}
+
+#banner p {
+    font-family: 'Squada One', cursive;
+    font-size: 110px;
+    color: rgba(218, 216, 216, 0.723);
+    top: 510px;
+    left: -80px;
+    position: relative;
+    width: 2000px;
+}
+
+article {
+    /*background: rgb(233, 181, 51);*/
+    background-color: rgb(223, 214, 207);
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.middle_info p {
+    margin: 100px 214px;
+    font-size: 14pt;
+    background: rgb(204, 152, 22);
+    padding: 50px 80px 50px 80px;
+    color: rgb(245, 237, 237);
+    box-shadow: 20px 20px rgb(124, 91, 7);
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+.main {
+    background-color: rgb(223, 214, 207);
+    position: relative;
+    width: auto;
+    height: 1400px;
+    padding: 70px 0;
+}
+
+.place1,
+.place2,
+.place3 {
+    margin: 0 180px;
+}
+
+.place1 h1 {
+    border-right: 2px solid rgb(145, 27, 27);
+    border-bottom: 2px solid rgb(145, 27, 27);
+}
+
+.place2 h1 {
+    border-right: 2px solid rgb(50, 97, 151);
+    border-bottom: 2px solid rgb(50, 97, 151);
+}
+
+.place3 h1 {
+    border-right: 2px solid rgb(220, 180, 40);
+    border-bottom: 2px solid rgb(220, 180, 40);
+}
+
+.main h1 {
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.main h2 {
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 1;
+}
+
+.east1 {
+    background: url(../img/east1.png);
+    float: left;
+}
+
+.east2 {
+    background: url(../img/east2.jpg);
+    float: left;
+}
+
+.east3 {
+    background: url(../img/east3.jpg);
+    float: left;
+}
+
+.east4 {
+    background: url(../img/east4.jpg);
+    float: left;
+}
+
+.east1,
+.east2,
+.east3,
+.east4 {
+    margin: 0 5.6px;
+    height: 320px;
+    width: 250px;
+}
+
+.place1 h3,
+.place2 h3,
+.place3 h3 {
+    font-size: 15px;
+    font-family: Arial;
+    color: rgb(253, 185, 197);
+    margin-top: 190px;
+    padding: 10px 0 15px 15px;
+    /* background: rgba(0, 0, 0, 0.123);*/
+}
+
+.place1 p,
+.place2 p,
+.place3 p {
+    font-size: 13px;
+    font-family: Arial;
+    color: rgb(221, 221, 220);
+    padding: 0 30px 10px 15px;
+    /* background: rgba(0, 0, 0, 0.123);*/
+}
+
+.br320 {
+    height: 380px;
+}
+
+.east1:hover,
+.east2:hover,
+.east3:hover,
+.east4:hover,
+.out1:hover,
+.out2:hover,
+.out3:hover,
+.out4:hover,
+.theme1:hover,
+.theme2:hover,
+.theme3:hover,
+.theme4:hover {
+    /* -webkit-filter: opacity(.8);*/
+    filter: brightness(0.6);
+
+}
+
+h3,
+p :hover {
+    filter: brightness(8);
+}
+
+
+.out1 {
+    background: url(../img/out1.jpg);
+    float: left;
+}
+
+.out2 {
+    background: url(../img/out2.jpg);
+    float: left;
+}
+
+.out3 {
+    background: url(../img/out3.jpg);
+    float: left;
+}
+
+.out4 {
+    background: url(../img/out4.jpg);
+    float: left;
+}
+
+.out1,
+.out2,
+.out3,
+.out4 {
+    margin: 0 5.6px;
+    height: 320px;
+    width: 250px;
+}
+
+.theme1 {
+    background: url(../img/theme1.png);
+    float: left;
+}
+
+.theme2 {
+    background: url(../img/theme2.jpg);
+    float: left;
+}
+
+.theme3 {
+    background: url(../img/theme3.jpg);
+    float: left;
+}
+
+.theme4 {
+    background: url(../img/theme4.jpg);
+    float: left;
+}
+
+.theme1,
+.theme2,
+.theme3,
+.theme4 {
+    margin: 0 5.6px;
+    height: 320px;
+    width: 250px;
+}
+
+.br300 {
+    height: 340px;
+    background: rgb(223, 214, 207);
+}
+
+.footer {
+    height: 180px;
+    background: #222222;
+    color: #e6dfdf;
+}
+
+.footer h3 {
+    font-family: "Arial";
+    font-size: 16px;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.left h3,
+.right h3 {
+    height: 50px;
+}
+
+.left p {
+    font-family: "Arial";
+    font-size: 14px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.left_text {
+    margin-top: 0px;
+}
+
+.left {
+    float: left;
+    margin-right: 300px;
+    margin-left: 350px;
+}
+
+.right {
+    float: left;
+}
+
+.bottom {
+    font-size: 12px;
+    text-align: center;
+    color: #afaaaa;
+    height: 20px;
+    padding: 10px 0 20px 0;
+    background: #222222;
+}
+
+footer img {
+    margin-right: 20px;
+}
